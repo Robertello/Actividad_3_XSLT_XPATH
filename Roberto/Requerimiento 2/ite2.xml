@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto_tecnologio_edix>
+	<centro>Instituto Tecnológico Edix></centro>
+	<pagina_web>https://institutotecnologico.edix.com></pagina_web>
+	<corporacion>Proeduca</corporacion>
+	<telefono>+34 91 787 39 91</telefono>
+	<personal>
+		<persona id="1">
+			<nombre>=Félix</nombre>
+			<puesto>Profesor</puesto>
+		</persona>
+		<persona id="2">
+			<nombre>=Raúl</nombre>
+			<puesto>Profesor</puesto>
+		</persona>
+		<persona id="3">
+			<nombre>=Raquel</nombre>
+			<puesto>Profesor</puesto>
+		</persona>
+		<persona id="4">
+			<nombre>=Tomás</nombre>
+			<puesto>Profesor</puesto>
+		</persona>
+		<persona id="5">
+			<nombre>=Chon</nombre>
+			<puesto>Director</puesto>
+			<localizacion>
+				<numero>Numero 31</numero>
+				<planta>3ª Planta</planta>
+				<edificio>Edificio A</edificio>
+			</localizacion>
+		</persona>
+		<persona id="6">
+			<nombre>=Dani</nombre>
+			<puesto>Jefe de estudios</puesto>
+			<localizacion>
+				<numero>Numero 27</numero>
+				<planta>2ª Planta</planta>
+				<edificio>Edificio B</edificio>
+			</localizacion>
+		</persona>
+	</personal>
+	<grados>
+		<grado>
+			<nombre siglas="ASIR">Administración de Sistemas Informáticos en Red</nombre>
+			<tipo_estudio año="2009">Superior</tipo_estudio>
+		</grado>
+		<grado>
+			<nombre siglas="DAW">Desarrollo de Aplicaciones Web</nombre>
+			<tipo_estudio año="2010">Superior</tipo_estudio>
+		</grado>
+		<grado>
+			<nombre siglas="DAM">Desarrollo de Aplicaciones Multiplataforma</nombre>
+			<tipo_estudio año="2010">Superior</tipo_estudio>
+		</grado>
+	</grados>
+</instituto_tecnologio_edix>
