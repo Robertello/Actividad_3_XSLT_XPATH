@@ -1,0 +1,27 @@
+h2{
+    color: green;
+    border: 3 solid ;
+    font-size: x-large;
+    border-radius: 12px;
+}
+table{
+
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+	box-shadow:  30px 30px 60px #c5c5c5,
+				 -30px -30px 60px #ffffff;
+}
+th{
+    border-radius:8px;
+    text-align:left;
+
+}
+th{
+    color: #d9e9c9;
+
+}
+
