@@ -105,23 +105,61 @@
     </p>
 </xsl:for-each>
 
-<hr/>
+
+
+
+<h2>Formulario de contacto</h2>
+				<form method="post">
+
+						<b>Profesor a contactar: </b>
+						<select name="persona">
+							<xsl:for-each select="ite/profesores/profesor">
+								<option value="nombre">
+									<xsl:value-of select="nombre"/>
+								</option>
+							</xsl:for-each>
+						</select>
+            <br/>
+						<b>Cual es tu curso: </b>
+						<select name="curso">
+							<xsl:for-each select="ite/ciclos/ciclo">
+								<option value="ciclo">
+									<xsl:value-of select="nombre"/>
+								</option>
+							</xsl:for-each>
+						</select>
+            <br/>
+						<b>Nombre: </b>
+						<input type="text" name="Nombre" required="" placeholder="*su nombre aqui"/>
+            <br/>
+						<b>Apellidos: </b>
+						<input type="text" name="Apellidos" required="" placeholder="*sus apellidos aqui"/>
+            <br/>
+						<b>Email: </b>
+						<input type="email" name="Email" required="" placeholder="*su email aqui"/>
+            <br/>
+						<b>Direccion: </b>
+						<input type="text" name="Direccion" required="" placeholder="*su direccion aqui"/>
+            <br/>
+						<b>Codigo postal: </b>
+						<input type="number" maxlenght="5" required="required" placeholder="*su codigo postal aqui"/>
+            <br/>
+						<b>Telefono: </b>
+						<input type="tel" name="Telefono" required="" pattern="[0-9]{9}" placeholder="*su telefono aqui"/>
+				</form>
+
+  <hr/>
 <h2>Enlaces</h2>
-<a>
-    <xsl:attribute name="href">
-      <xsl:value-of select="ite/empresa/@enlace"/>
-    </xsl:attribute>
-    <xsl:value-of select="ite/empresa"/>
-</a>
-<br/>
+  <br/>
 
-<a>
-    <xsl:attribute name="href">
-      <xsl:value-of select="ite/telefono/@enlace"/>
-    </xsl:attribute>
-    <xsl:value-of select="ite/telefono"/>
-</a>
+    <a href="{ite/@web}">
+      Accede a la web : 
+          <xsl:value-of select="ite/@web"/>
 
+    </a>
+    <br/>
+
+    <a href="tel:{ite/telefono}">Nuestro telefono</a>
 </body>
 </html>
 </xsl:template>
