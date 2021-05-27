@@ -89,7 +89,7 @@
 	</option>
 	</xsl:for-each>
       </select>
-	</br>
+	<br/>
 	<b>Seleccione un ciclo formativo: </b>
 		<select name="curso">
 			<xsl:for-each select="ite/ciclos/ciclo">
