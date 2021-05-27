@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ite> 
+           <nombre>Instituto Tecnológico Edix</nombre> 
+                
+           <web>https://institutotecnologico.edix.com</web>
+
+           <grupo>Proeduca</grupo>
+
+           <telefono>+34 91 787 39 91</telefono>
+
+           <formaciones>
+
+                <fp id="ASIR" decretoTitulo="2009">
+
+                    <denominacion>Administración de Sistemas Informáticos en Red</denominacion>
+
+                    <tipo>Superior</tipo>
+
+                </fp>
+
+                <fp id="DAW" decretoTitulo año="2010">
+
+                    <denominacion>Desarrollo de Aplicaciones Web<denominacion/>
+
+                    <tipo>Superior</tipo>
+
+                </fp>
+
+                <fp id="DAM" decretoTitulo año="2010">
+
+                    <denominacion>Desarrollo de Aplicaciones Multiplataforma</denominacion>
+
+                    <tipo>Superior</tipo>
+
+                </fp>
+
+           </formaciones>
+
+
+           <equipo>
+                
+                <persona id="1">
+
+                               <nombre>Chon</nombre>
+
+                               <ubicacion>Numero 31, 3ª Planta, Edificio A</ubicacion>
+                               
+                               <directora/>
+                </persona>
+
+                <persona id="2">
+
+                               <nombre>Dani</nombre>
+
+                               <ubicacion>Numero 27, 2ª Planta, Edificio B</ubicaciom>
+
+                               <jefe_estudios/>
+
+                </persona>
+
+                <persona id="3">
+
+                                <nombre>Félix</nombre>
+
+                                <profesor/>
+
+                <persona id="4">
+
+                                <nombre>Raúl</nombre>
+
+                                <profesor/>
+
+                <persona id="5">
+
+                                <nombre>Raquel</nombre>
+
+                               <profesor/>
+
+                <persona id="6">
+
+                                <nombre>Tomás</nombre>
+
+                               <profesor/>
+
+           </equipo>                
+</ite>
