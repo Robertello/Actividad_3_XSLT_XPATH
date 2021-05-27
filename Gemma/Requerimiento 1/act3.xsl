@@ -2,6 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
 <html>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 <body>
 <h1><a href="{ite/@web}">Instituto Tecnologico Edix</a></h1>
 <!--Lista no ordenada de la directiva-->
