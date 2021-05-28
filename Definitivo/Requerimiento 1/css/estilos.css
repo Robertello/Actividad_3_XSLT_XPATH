@@ -1,0 +1,51 @@
+
+marquee{
+	font-size: 50;
+	direction: left;
+	animation: change 8s infinite;
+}
+@keyframes change {
+	from {color: blue}
+		to {color: purple}
+}
+body{
+	background-color: #DAF7A6 ;
+}
+
+
+h2{
+    color: purple;
+    border: 3 solid ;
+    border-radius: 12px;
+}
+
+table{
+	border: 1px solid;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 12px;
+}
+
+th{
+	color:aliceblue;
+	background: #302D7B;
+	border: 1px solid;
+	border-radius:8px;
+	text-align:left;
+
+}
+td{
+	background: #77AAF4;
+	border: 1px solid;
+	border-radius:8px;
+}
+
+input,select{
+
+	border-radius: 12px;
+}
+fieldset{
+	border: 1px solid;
+}
